@@ -1,0 +1,82 @@
+apiVersion: v1
+entries:
+  traefik:
+  - annotations:
+      artifacthub.io/changes: "- \"fix: \U0001F41B missing quote on experimental plugin
+        args\"\n- \"fix: update traefik v3 serverstransporttcps CRD\"\n- \"feat: set
+        runtimeClassName on pod spec\"\n- \"feat: create v1 Gateway and GatewayClass
+        Version for Traefik v3\"\n- \"feat: allow exposure of ports on internal service
+        only\"\n- \"doc: fix invalid suggestion on TLSOption (#996)\"\n- \"chore:
+        \U0001F527 update maintainers\"\n- \"chore: \U0001F527 promote jnoordsij to
+        Traefik Helm Chart maintainer\"\n- \"chore(release): publish v26.1.0\"\n-
+        \"chore(deps): update traefik docker tag to v2.11.0\"\n- \"chore(deps): update
+        traefik docker tag to v2.10.7\"\n- \"chore(crds): update definitions for traefik
+        v2.11\"\n"
+    apiVersion: v2
+    appVersion: v2.11.0
+    created: "2024-03-30T18:56:42.469425181Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 9d21a1c10e7204612868e374bb94d05f3af868bafcf2f58e650e3d48670a64ff
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: charlie.haley@traefik.io
+      name: charlie-haley
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/prototypicalpro/traefik-helm-chart/releases/download/traefik-26.1.1/traefik-26.1.1.tgz
+    version: 26.1.1
+  - annotations:
+      artifacthub.io/changes: "- \"fix: \U0001F41B missing quote on experimental plugin
+        args\"\n- \"fix: update traefik v3 serverstransporttcps CRD\"\n- \"feat: set
+        runtimeClassName on pod spec\"\n- \"feat: create v1 Gateway and GatewayClass
+        Version for Traefik v3\"\n- \"feat: allow exposure of ports on internal service
+        only\"\n- \"doc: fix invalid suggestion on TLSOption (#996)\"\n- \"chore:
+        \U0001F527 update maintainers\"\n- \"chore: \U0001F527 promote jnoordsij to
+        Traefik Helm Chart maintainer\"\n- \"chore(release): publish v26.1.0\"\n-
+        \"chore(deps): update traefik docker tag to v2.11.0\"\n- \"chore(deps): update
+        traefik docker tag to v2.10.7\"\n- \"chore(crds): update definitions for traefik
+        v2.11\"\n"
+    apiVersion: v2
+    appVersion: v2.11.0
+    created: "2024-03-30T18:56:42.300523122Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 0c957ac528fad0dcd9ea38325d1d578bccfe9fb110ae70ce006cfed1c6fb4928
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: charlie.haley@traefik.io
+      name: charlie-haley
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/prototypicalpro/traefik-helm-chart/releases/download/traefik-26.1.0/traefik-26.1.0.tgz
+    version: 26.1.0
+generated: "2024-03-30T18:56:42.469445829Z"
