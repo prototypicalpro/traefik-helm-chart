@@ -2,6 +2,39 @@ apiVersion: v1
 entries:
   traefik:
   - annotations:
+      artifacthub.io/changes: "- \"fix: remove null annotations on dashboard `IngressRoute`\"\n-
+        \"fix(rbac): do not create clusterrole for namespace deployment on Traefik
+        v3\"\n- \"feat: restrict access to secrets\"\n- \"feat!: :boom: refactor custom
+        services and port exposure\"\n- \"chore(release): \U0001F680 publish v27.0.0\"\n"
+    apiVersion: v2
+    appVersion: v3.0.0-rc3
+    created: "2024-04-08T02:43:48.098830608Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 1025b2c051b5fb0671572701dce76b59959f46735634170fc16a3f2046871723
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: charlie.haley@traefik.io
+      name: charlie-haley
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - https://github.com/prototypicalpro/traefik-helm-chart/releases/download/traefik-27.0.0/traefik-27.0.0.tgz
+    version: 27.0.0
+  - annotations:
       artifacthub.io/changes: "- \"fix: \U0001F41B missing quote on experimental plugin
         args\"\n- \"fix: update traefik v3 serverstransporttcps CRD\"\n- \"feat: set
         runtimeClassName on pod spec\"\n- \"feat: create v1 Gateway and GatewayClass
@@ -79,4 +112,4 @@ entries:
     urls:
     - https://github.com/prototypicalpro/traefik-helm-chart/releases/download/traefik-26.1.0/traefik-26.1.0.tgz
     version: 26.1.0
-generated: "2024-03-30T18:56:42.469445829Z"
+generated: "2024-04-08T02:43:48.098854303Z"
